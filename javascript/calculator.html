@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="calculator.css">
+</head>
+<body class="global">
+	<div class="one">
+		<div>
+		<input type="text" name="result" class="two"><br>
+		</div>
+
+		<div >
+		<button onclick="updateresult(7)" class="three">7</button>
+		<button onclick="updateresult(8)" class="three">8</button>
+		<button onclick="updateresult(9)" class="three">9</button>
+		<button onclick="updateresult('*')"class="three three1">*</button><br>
+		</div>
+
+		<div >
+		<button onclick="updateresult(4)" class="three">4</button>
+		<button onclick="updateresult(5)" class="three">5</button>
+		<button onclick="updateresult(6)" class="three">6</button>
+		<button onclick="updateresult('-')" class="three three1">-</button><br>
+		</div>
+
+		<div >
+		<button onclick="updateresult(1)" class="three">1</button>
+		<button onclick="updateresult(2)" class="three">2</button>
+		<button onclick="updateresult(3)" class="three">3</button>
+		<button onclick="updateresult('+')" class="three three1" v>+</button><br>
+		</div>
+
+		<div >
+		<button onclick="updateresult(0)" class="three">0</button>
+		<button onclick="updateresult('.')" class="three">.</button>
+		<button onclick="showresult('=')" class="three">=</button>
+		<button onclick="updateresult('/')" class="three three1">/</button><br>
+		</div>
+
+		<div>
+		<button onclick="clearinput('c')" class="two1">C</button>
+		</div>
+	</div>	
+</body>
+
+<script type="text/javascript">
+	function updateresult(a){
+		document.getElementsByName('result')[0].value +=a;
+	}
+	function showresult() {
+		// body...
+		var dd=document.getElementsByName('result')[0].value;
+		var cc=eval(dd)
+		document.getElementsByName('result')[0].value=cc;
+	}
+	function clearinput() {
+		document.getElementsByName('result')[0].value=""
+	}
+</script>
+</html>

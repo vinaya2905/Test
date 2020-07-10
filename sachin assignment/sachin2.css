@@ -1,0 +1,42 @@
+.greybg{
+	background-color: #bab6b6;
+	height: 100px;
+}
+.second{
+	height: 300px;
+}
+.yellowbg{
+	background-color: yellow;
+	height: 100vh;
+}
+.lightgreybg{
+	background-color: #f0e4e4;
+	height: 100vh;
+}
+.headerlogo{
+	height: 90px;
+	width: 90px;
+	border-radius: 50%;
+	margin-left: 28px;
+	margin-top: 5px;
+}
+.htitle{
+	margin-top: 28px;
+}
+.hright{
+	margin-top: 28px;
+}
+.mright{
+	margin-right: 20px;
+}
+.pb24{
+	padding: 24px;
+}
+.leftsidenav{
+	margin-top: 44px;
+	margin-left: 26px;
+}
+.seconcolimg{
+	height: 130px;
+	width: 130px;
+}

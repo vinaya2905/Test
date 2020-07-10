@@ -1,0 +1,16 @@
+.title{
+	color:black;
+	text-align: center;
+	background-color: red;
+	padding: 20px;
+	font-size:90px;
+}
+@media (max-width:500px){
+	body{
+		background-color: yellow;
+	}
+	.title{
+		background-color: black;
+		color:white;
+	}
+}

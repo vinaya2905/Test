@@ -1,0 +1,27 @@
+.dg{
+	background-color: #A9A9A9;
+	height: 150px;
+}
+.y{
+	background-color: yellow;
+	height:350px;
+}
+.g{
+	background-color: #DCDCDC;
+	height:350px;
+}
+.image{
+	height: 90px;
+	width:90px;
+	border-radius: 50%; 
+	margin-left: 20px;
+	margin-top: 10px;
+}
+.p{
+	margin-top: 15px;
+}
+.im1{
+	height: 50px;
+	width: 50px;
+	padding: 20px;
+}

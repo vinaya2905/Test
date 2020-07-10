@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<h1 class="hey">"Hello World"</h1>
+<h1 class="hey">"Hello World"</h1>
+<h1>"Hello World"</h1>
+<input type="text" name="fname">
+<button onclick="showmedata()">Submit</button>
+<h1 class="result"></h1>
+</body>
+<script type="text/javascript">
+	function showmedata(){
+		var a=document.getElementsByName('fname')[0].value;
+
+		if(a%2==0){
+			var b=document.getElementsByClassName('result')[0].textContent="Its even Number" 
+			console.log(b)
+
+		}
+		else{
+			var b=document.getElementsByClassName('result')[0].textContent="Its odd Number"
+			console.log(b)
+		}
+	}
+</script>
+</html>

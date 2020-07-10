@@ -1,0 +1,38 @@
+.one{
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom: 100px;
+
+}
+.two{
+	width: 400px;
+	height:60px;
+	border-style: solid;
+	background-color: grey;
+	text-align: right;
+	font-size: 28px;
+}
+.three{
+	width: 98px;
+	height: 60px;
+	margin-left: 0px;
+	margin-right: 0px;
+	border-style: solid;
+	border-color: black;
+	background-color: white;
+	font-size: 28px;
+	
+}
+.two1{
+	width: 404px;
+	height:70px;
+	border-style: solid;
+	border-color: black;
+	background-color: lightgrey;
+}
+/*.global{
+	border-style: solid;
+}*/
+.three1{
+	background-color: #f6bfa0;
+}
